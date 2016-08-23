@@ -1,0 +1,51 @@
+﻿Build started 8/23/2016 11:36:35 PM.
+     1>Project "E:\college\Advanced programming\ClinicSystem\ClinicSystem\ClinicSystem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Patient.cpp Source.cpp
+         Source.cpp
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(7): error C3646: 'name': unknown override specifier
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(10): error C3646: 'address': unknown override specifier
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(16): error C2061: syntax error: identifier 'string'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(16): error C2535: 'patient::patient(void)': member function already defined or declared
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(15): note: see declaration of 'patient::patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(122): error C2039: 'name': is not a member of 'patient'
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(5): note: see declaration of 'patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(124): error C2039: 'name': is not a member of 'patient'
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(5): note: see declaration of 'patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(138): error C2039: 'name': is not a member of 'patient'
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(5): note: see declaration of 'patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(140): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(180): error C2039: 'name': is not a member of 'patient'
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(5): note: see declaration of 'patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(182): error C2039: 'name': is not a member of 'patient'
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(5): note: see declaration of 'patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(188): error C2039: 'name': is not a member of 'patient'
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(5): note: see declaration of 'patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(190): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\source.cpp(198): warning C4129: 'P': unrecognized character escape sequence
+         Patient.cpp
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(7): error C3646: 'name': unknown override specifier
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(10): error C3646: 'address': unknown override specifier
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(16): error C2061: syntax error: identifier 'string'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(16): error C2535: 'patient::patient(void)': member function already defined or declared
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(15): note: see declaration of 'patient::patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(19): error C2511: 'patient::patient(std::string,int,long,std::string,time_t)': overloaded member function not found in 'patient'
+         e:\college\advanced programming\clinicsystem\clinicsystem\patient.h(5): note: see declaration of 'patient'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(20): error C2065: 'name': undeclared identifier
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(21): error C2597: illegal reference to non-static member 'patient::pat_id'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(22): error C2597: illegal reference to non-static member 'patient::phone'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(23): error C2065: 'address': undeclared identifier
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(24): error C2597: illegal reference to non-static member 'patient::dateOfBirth'
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(34): error C2065: 'name': undeclared identifier
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(36): error C2065: 'address': undeclared identifier
+     1>e:\college\advanced programming\clinicsystem\clinicsystem\patient.cpp(45): error C2065: 'name': undeclared identifier
+         Generating Code...
+     1>Done Building Project "E:\college\Advanced programming\ClinicSystem\ClinicSystem\ClinicSystem.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.20
